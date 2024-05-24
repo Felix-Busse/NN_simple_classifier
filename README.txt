@@ -1,4 +1,13 @@
-Neuronal network to distinguish arbitary lorenz- from gauss-functions
+# NN_simple_classifier
 
+**Neuronal network classifier** for data generated from Gaussian or Lorenz distribution
 
-Python3 skript that will generate random lorenz- and gauss-functions and train a neuronal net to distinguish them. Accuracy on training and evaluation data set, as well as loss-function, will be plotted after training.
+## How to
+Clone this repository and explore the classification by neuronal network in [Jupyter-Notebook](classifier_skript.ipynb).
+
+## Description
+### Data generation
+Data is generated as points taken from a gaussian or lorenz distribution. The free parameters of the distributions is altered during data generation.
+
+### Classification
+**Hyperparameter** selection, use of **metrics** and **visualizing performances** of neuronal networks is demonstrated.
